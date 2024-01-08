@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blazing Burgers </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FF9800;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+
+        /* Navigation styles */
+        .carousel-prev,
+        .carousel-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .carousel-prev {
+            left: 10px;
+        }
+
+        .carousel-next {
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Blazing Burger </h1>
+    </header>
+
+    <nav>
+        <a href="resturant.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Our Restaurant</h2>
+        <div class="carousel-container">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="carousel image 1.jpg" alt="chesse burger">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel image 2.jpg" alt="doubele cheese burger">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel image 3.jpg" alt="singele meat">
+                </div>
+
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="carousel-prev">&#10094;</div>
+            <div class="carousel-next">&#10095;</div>
+        </div>
+
+        <p>Explore our delicious menu and experience the finest dining.</p>
+    </section>
+
+    <section>
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+            <p>Start your meal with our tasty appetizers.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Main Courses</h3>
+            <p>Delicious main courses that will satisfy your cravings.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Desserts</h3>
+            <p>Sweet treats to end your meal on a high note.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
